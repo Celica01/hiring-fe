@@ -8,9 +8,11 @@
    npm install
    ```
 3. **Create `.env.local` file**  
+   BE local : http://localhost:3001
+   BE Server : https://hiring-be.vercel.app
    Add the following environment variables:
    ```env
-   NEXT_PUBLIC_API_URL=https://hiring-be.vercel.app
+   NEXT_PUBLIC_API_URL=http://localhost:3001
    NEXT_PUBLIC_APP_NAME="Hiring App"
    ```
 
